@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1892E41D15DA767E0081C44B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1892E41C15DA767E0081C44B /* UIKit.framework */; };
+		1892E41F15DA767E0081C44B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1892E41E15DA767E0081C44B /* Foundation.framework */; };
+		1892E42115DA767E0081C44B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1892E42015DA767E0081C44B /* CoreGraphics.framework */; };
+		1892E42715DA767E0081C44B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1892E42515DA767E0081C44B /* InfoPlist.strings */; };
+		1892E42A15DA767E0081C44B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1892E42915DA767E0081C44B /* main.m */; };
+		1892E42D15DA767E0081C44B /* FileWriteAndReadAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1892E42C15DA767E0081C44B /* FileWriteAndReadAppDelegate.m */; };
+		1892E43015DA767E0081C44B /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1892E42E15DA767E0081C44B /* MainWindow.xib */; };
+		1892E43315DA767E0081C44B /* FileWriteAndReadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1892E43215DA767E0081C44B /* FileWriteAndReadViewController.m */; };
+		1892E43615DA767E0081C44B /* FileWriteAndReadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1892E43415DA767E0081C44B /* FileWriteAndReadViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1892E41815DA767E0081C44B /* FileWriteAndRead.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FileWriteAndRead.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1892E41C15DA767E0081C44B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1892E41E15DA767E0081C44B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1892E42015DA767E0081C44B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1892E42415DA767E0081C44B /* FileWriteAndRead-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FileWriteAndRead-Info.plist"; sourceTree = "<group>"; };
+		1892E42615DA767E0081C44B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1892E42815DA767E0081C44B /* FileWriteAndRead-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FileWriteAndRead-Prefix.pch"; sourceTree = "<group>"; };
+		1892E42915DA767E0081C44B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1892E42B15DA767E0081C44B /* FileWriteAndReadAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileWriteAndReadAppDelegate.h; sourceTree = "<group>"; };
+		1892E42C15DA767E0081C44B /* FileWriteAndReadAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileWriteAndReadAppDelegate.m; sourceTree = "<group>"; };
+		1892E42F15DA767E0081C44B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		1892E43115DA767E0081C44B /* FileWriteAndReadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileWriteAndReadViewController.h; sourceTree = "<group>"; };
+		1892E43215DA767E0081C44B /* FileWriteAndReadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileWriteAndReadViewController.m; sourceTree = "<group>"; };
+		1892E43515DA767E0081C44B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FileWriteAndReadViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1892E41515DA767E0081C44B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1892E41D15DA767E0081C44B /* UIKit.framework in Frameworks */,
+				1892E41F15DA767E0081C44B /* Foundation.framework in Frameworks */,
+				1892E42115DA767E0081C44B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1892E40D15DA767E0081C44B = {
+			isa = PBXGroup;
+			children = (
+				1892E42215DA767E0081C44B /* FileWriteAndRead */,
+				1892E41B15DA767E0081C44B /* Frameworks */,
+				1892E41915DA767E0081C44B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1892E41915DA767E0081C44B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1892E41815DA767E0081C44B /* FileWriteAndRead.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1892E41B15DA767E0081C44B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1892E41C15DA767E0081C44B /* UIKit.framework */,
+				1892E41E15DA767E0081C44B /* Foundation.framework */,
+				1892E42015DA767E0081C44B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1892E42215DA767E0081C44B /* FileWriteAndRead */ = {
+			isa = PBXGroup;
+			children = (
+				1892E42B15DA767E0081C44B /* FileWriteAndReadAppDelegate.h */,
+				1892E42C15DA767E0081C44B /* FileWriteAndReadAppDelegate.m */,
+				1892E42E15DA767E0081C44B /* MainWindow.xib */,
+				1892E43115DA767E0081C44B /* FileWriteAndReadViewController.h */,
+				1892E43215DA767E0081C44B /* FileWriteAndReadViewController.m */,
+				1892E43415DA767E0081C44B /* FileWriteAndReadViewController.xib */,
+				1892E42315DA767E0081C44B /* Supporting Files */,
+			);
+			path = FileWriteAndRead;
+			sourceTree = "<group>";
+		};
+		1892E42315DA767E0081C44B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1892E42415DA767E0081C44B /* FileWriteAndRead-Info.plist */,
+				1892E42515DA767E0081C44B /* InfoPlist.strings */,
+				1892E42815DA767E0081C44B /* FileWriteAndRead-Prefix.pch */,
+				1892E42915DA767E0081C44B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1892E41715DA767E0081C44B /* FileWriteAndRead */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1892E43915DA767E0081C44B /* Build configuration list for PBXNativeTarget "FileWriteAndRead" */;
+			buildPhases = (
+				1892E41415DA767E0081C44B /* Sources */,
+				1892E41515DA767E0081C44B /* Frameworks */,
+				1892E41615DA767E0081C44B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FileWriteAndRead;
+			productName = FileWriteAndRead;
+			productReference = 1892E41815DA767E0081C44B /* FileWriteAndRead.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1892E40F15DA767E0081C44B /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1892E41215DA767E0081C44B /* Build configuration list for PBXProject "FileWriteAndRead" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1892E40D15DA767E0081C44B;
+			productRefGroup = 1892E41915DA767E0081C44B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1892E41715DA767E0081C44B /* FileWriteAndRead */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1892E41615DA767E0081C44B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1892E42715DA767E0081C44B /* InfoPlist.strings in Resources */,
+				1892E43015DA767E0081C44B /* MainWindow.xib in Resources */,
+				1892E43615DA767E0081C44B /* FileWriteAndReadViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1892E41415DA767E0081C44B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1892E42A15DA767E0081C44B /* main.m in Sources */,
+				1892E42D15DA767E0081C44B /* FileWriteAndReadAppDelegate.m in Sources */,
+				1892E43315DA767E0081C44B /* FileWriteAndReadViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1892E42515DA767E0081C44B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1892E42615DA767E0081C44B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1892E42E15DA767E0081C44B /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1892E42F15DA767E0081C44B /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		1892E43415DA767E0081C44B /* FileWriteAndReadViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1892E43515DA767E0081C44B /* en */,
+			);
+			name = FileWriteAndReadViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1892E43715DA767E0081C44B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1892E43815DA767E0081C44B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		1892E43A15DA767E0081C44B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FileWriteAndRead/FileWriteAndRead-Prefix.pch";
+				INFOPLIST_FILE = "FileWriteAndRead/FileWriteAndRead-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1892E43B15DA767E0081C44B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FileWriteAndRead/FileWriteAndRead-Prefix.pch";
+				INFOPLIST_FILE = "FileWriteAndRead/FileWriteAndRead-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1892E41215DA767E0081C44B /* Build configuration list for PBXProject "FileWriteAndRead" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1892E43715DA767E0081C44B /* Debug */,
+				1892E43815DA767E0081C44B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1892E43915DA767E0081C44B /* Build configuration list for PBXNativeTarget "FileWriteAndRead" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1892E43A15DA767E0081C44B /* Debug */,
+				1892E43B15DA767E0081C44B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1892E40F15DA767E0081C44B /* Project object */;
+}

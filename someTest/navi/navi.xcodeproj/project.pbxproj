@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1884565115EB670000E8AB01 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1884565015EB670000E8AB01 /* UIKit.framework */; };
+		1884565315EB670000E8AB01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1884565215EB670000E8AB01 /* Foundation.framework */; };
+		1884565515EB670000E8AB01 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1884565415EB670000E8AB01 /* CoreGraphics.framework */; };
+		1884565B15EB670000E8AB01 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1884565915EB670000E8AB01 /* InfoPlist.strings */; };
+		1884565E15EB670000E8AB01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1884565D15EB670000E8AB01 /* main.m */; };
+		1884566115EB670000E8AB01 /* naviAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1884566015EB670000E8AB01 /* naviAppDelegate.m */; };
+		1884566415EB670000E8AB01 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1884566215EB670000E8AB01 /* MainWindow.xib */; };
+		1884566715EB670000E8AB01 /* naviViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1884566615EB670000E8AB01 /* naviViewController.m */; };
+		1884566A15EB670000E8AB01 /* naviViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1884566815EB670000E8AB01 /* naviViewController.xib */; };
+		1884567315EB67C100E8AB01 /* first.m in Sources */ = {isa = PBXBuildFile; fileRef = 1884567115EB67C100E8AB01 /* first.m */; };
+		1884567415EB67C100E8AB01 /* first.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1884567215EB67C100E8AB01 /* first.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1884564C15EB670000E8AB01 /* navi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = navi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1884565015EB670000E8AB01 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1884565215EB670000E8AB01 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1884565415EB670000E8AB01 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1884565815EB670000E8AB01 /* navi-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "navi-Info.plist"; sourceTree = "<group>"; };
+		1884565A15EB670000E8AB01 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1884565C15EB670000E8AB01 /* navi-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "navi-Prefix.pch"; sourceTree = "<group>"; };
+		1884565D15EB670000E8AB01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1884565F15EB670000E8AB01 /* naviAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = naviAppDelegate.h; sourceTree = "<group>"; };
+		1884566015EB670000E8AB01 /* naviAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = naviAppDelegate.m; sourceTree = "<group>"; };
+		1884566315EB670000E8AB01 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		1884566515EB670000E8AB01 /* naviViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = naviViewController.h; sourceTree = "<group>"; };
+		1884566615EB670000E8AB01 /* naviViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = naviViewController.m; sourceTree = "<group>"; };
+		1884566915EB670000E8AB01 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/naviViewController.xib; sourceTree = "<group>"; };
+		1884567015EB67C100E8AB01 /* first.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = first.h; sourceTree = "<group>"; };
+		1884567115EB67C100E8AB01 /* first.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = first.m; sourceTree = "<group>"; };
+		1884567215EB67C100E8AB01 /* first.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = first.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1884564915EB670000E8AB01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1884565115EB670000E8AB01 /* UIKit.framework in Frameworks */,
+				1884565315EB670000E8AB01 /* Foundation.framework in Frameworks */,
+				1884565515EB670000E8AB01 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1884564115EB670000E8AB01 = {
+			isa = PBXGroup;
+			children = (
+				1884565615EB670000E8AB01 /* navi */,
+				1884564F15EB670000E8AB01 /* Frameworks */,
+				1884564D15EB670000E8AB01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1884564D15EB670000E8AB01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1884564C15EB670000E8AB01 /* navi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1884564F15EB670000E8AB01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1884565015EB670000E8AB01 /* UIKit.framework */,
+				1884565215EB670000E8AB01 /* Foundation.framework */,
+				1884565415EB670000E8AB01 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1884565615EB670000E8AB01 /* navi */ = {
+			isa = PBXGroup;
+			children = (
+				1884565F15EB670000E8AB01 /* naviAppDelegate.h */,
+				1884566015EB670000E8AB01 /* naviAppDelegate.m */,
+				1884566215EB670000E8AB01 /* MainWindow.xib */,
+				1884566515EB670000E8AB01 /* naviViewController.h */,
+				1884566615EB670000E8AB01 /* naviViewController.m */,
+				1884566815EB670000E8AB01 /* naviViewController.xib */,
+				1884565715EB670000E8AB01 /* Supporting Files */,
+				1884567015EB67C100E8AB01 /* first.h */,
+				1884567115EB67C100E8AB01 /* first.m */,
+				1884567215EB67C100E8AB01 /* first.xib */,
+			);
+			path = navi;
+			sourceTree = "<group>";
+		};
+		1884565715EB670000E8AB01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1884565815EB670000E8AB01 /* navi-Info.plist */,
+				1884565915EB670000E8AB01 /* InfoPlist.strings */,
+				1884565C15EB670000E8AB01 /* navi-Prefix.pch */,
+				1884565D15EB670000E8AB01 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1884564B15EB670000E8AB01 /* navi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1884566D15EB670000E8AB01 /* Build configuration list for PBXNativeTarget "navi" */;
+			buildPhases = (
+				1884564815EB670000E8AB01 /* Sources */,
+				1884564915EB670000E8AB01 /* Frameworks */,
+				1884564A15EB670000E8AB01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = navi;
+			productName = navi;
+			productReference = 1884564C15EB670000E8AB01 /* navi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1884564315EB670000E8AB01 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1884564615EB670000E8AB01 /* Build configuration list for PBXProject "navi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1884564115EB670000E8AB01;
+			productRefGroup = 1884564D15EB670000E8AB01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1884564B15EB670000E8AB01 /* navi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1884564A15EB670000E8AB01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1884565B15EB670000E8AB01 /* InfoPlist.strings in Resources */,
+				1884566415EB670000E8AB01 /* MainWindow.xib in Resources */,
+				1884566A15EB670000E8AB01 /* naviViewController.xib in Resources */,
+				1884567415EB67C100E8AB01 /* first.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1884564815EB670000E8AB01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1884565E15EB670000E8AB01 /* main.m in Sources */,
+				1884566115EB670000E8AB01 /* naviAppDelegate.m in Sources */,
+				1884566715EB670000E8AB01 /* naviViewController.m in Sources */,
+				1884567315EB67C100E8AB01 /* first.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1884565915EB670000E8AB01 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1884565A15EB670000E8AB01 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1884566215EB670000E8AB01 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1884566315EB670000E8AB01 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		1884566815EB670000E8AB01 /* naviViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1884566915EB670000E8AB01 /* en */,
+			);
+			name = naviViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1884566B15EB670000E8AB01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1884566C15EB670000E8AB01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		1884566E15EB670000E8AB01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "navi/navi-Prefix.pch";
+				INFOPLIST_FILE = "navi/navi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1884566F15EB670000E8AB01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "navi/navi-Prefix.pch";
+				INFOPLIST_FILE = "navi/navi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1884564615EB670000E8AB01 /* Build configuration list for PBXProject "navi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1884566B15EB670000E8AB01 /* Debug */,
+				1884566C15EB670000E8AB01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1884566D15EB670000E8AB01 /* Build configuration list for PBXNativeTarget "navi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1884566E15EB670000E8AB01 /* Debug */,
+				1884566F15EB670000E8AB01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1884564315EB670000E8AB01 /* Project object */;
+}

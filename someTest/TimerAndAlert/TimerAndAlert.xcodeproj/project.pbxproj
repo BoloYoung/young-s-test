@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		188D167A15EF978A00F80F6A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188D167915EF978A00F80F6A /* UIKit.framework */; };
+		188D167C15EF978A00F80F6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188D167B15EF978A00F80F6A /* Foundation.framework */; };
+		188D167E15EF978A00F80F6A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188D167D15EF978A00F80F6A /* CoreGraphics.framework */; };
+		188D168415EF978A00F80F6A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 188D168215EF978A00F80F6A /* InfoPlist.strings */; };
+		188D168715EF978A00F80F6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 188D168615EF978A00F80F6A /* main.m */; };
+		188D168A15EF978A00F80F6A /* TimerAndAlertAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 188D168915EF978A00F80F6A /* TimerAndAlertAppDelegate.m */; };
+		188D168D15EF978A00F80F6A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188D168B15EF978A00F80F6A /* MainWindow.xib */; };
+		188D169015EF978A00F80F6A /* TimerAndAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188D168F15EF978A00F80F6A /* TimerAndAlertViewController.m */; };
+		188D169315EF978A00F80F6A /* TimerAndAlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188D169115EF978A00F80F6A /* TimerAndAlertViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		188D167515EF978A00F80F6A /* TimerAndAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimerAndAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		188D167915EF978A00F80F6A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		188D167B15EF978A00F80F6A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		188D167D15EF978A00F80F6A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		188D168115EF978A00F80F6A /* TimerAndAlert-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TimerAndAlert-Info.plist"; sourceTree = "<group>"; };
+		188D168315EF978A00F80F6A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		188D168515EF978A00F80F6A /* TimerAndAlert-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TimerAndAlert-Prefix.pch"; sourceTree = "<group>"; };
+		188D168615EF978A00F80F6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		188D168815EF978A00F80F6A /* TimerAndAlertAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerAndAlertAppDelegate.h; sourceTree = "<group>"; };
+		188D168915EF978A00F80F6A /* TimerAndAlertAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerAndAlertAppDelegate.m; sourceTree = "<group>"; };
+		188D168C15EF978A00F80F6A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		188D168E15EF978A00F80F6A /* TimerAndAlertViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerAndAlertViewController.h; sourceTree = "<group>"; };
+		188D168F15EF978A00F80F6A /* TimerAndAlertViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerAndAlertViewController.m; sourceTree = "<group>"; };
+		188D169215EF978A00F80F6A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TimerAndAlertViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		188D167215EF978A00F80F6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188D167A15EF978A00F80F6A /* UIKit.framework in Frameworks */,
+				188D167C15EF978A00F80F6A /* Foundation.framework in Frameworks */,
+				188D167E15EF978A00F80F6A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		188D166A15EF978A00F80F6A = {
+			isa = PBXGroup;
+			children = (
+				188D167F15EF978A00F80F6A /* TimerAndAlert */,
+				188D167815EF978A00F80F6A /* Frameworks */,
+				188D167615EF978A00F80F6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		188D167615EF978A00F80F6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				188D167515EF978A00F80F6A /* TimerAndAlert.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		188D167815EF978A00F80F6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				188D167915EF978A00F80F6A /* UIKit.framework */,
+				188D167B15EF978A00F80F6A /* Foundation.framework */,
+				188D167D15EF978A00F80F6A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		188D167F15EF978A00F80F6A /* TimerAndAlert */ = {
+			isa = PBXGroup;
+			children = (
+				188D168815EF978A00F80F6A /* TimerAndAlertAppDelegate.h */,
+				188D168915EF978A00F80F6A /* TimerAndAlertAppDelegate.m */,
+				188D168B15EF978A00F80F6A /* MainWindow.xib */,
+				188D168E15EF978A00F80F6A /* TimerAndAlertViewController.h */,
+				188D168F15EF978A00F80F6A /* TimerAndAlertViewController.m */,
+				188D169115EF978A00F80F6A /* TimerAndAlertViewController.xib */,
+				188D168015EF978A00F80F6A /* Supporting Files */,
+			);
+			path = TimerAndAlert;
+			sourceTree = "<group>";
+		};
+		188D168015EF978A00F80F6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				188D168115EF978A00F80F6A /* TimerAndAlert-Info.plist */,
+				188D168215EF978A00F80F6A /* InfoPlist.strings */,
+				188D168515EF978A00F80F6A /* TimerAndAlert-Prefix.pch */,
+				188D168615EF978A00F80F6A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		188D167415EF978A00F80F6A /* TimerAndAlert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 188D169615EF978A00F80F6A /* Build configuration list for PBXNativeTarget "TimerAndAlert" */;
+			buildPhases = (
+				188D167115EF978A00F80F6A /* Sources */,
+				188D167215EF978A00F80F6A /* Frameworks */,
+				188D167315EF978A00F80F6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimerAndAlert;
+			productName = TimerAndAlert;
+			productReference = 188D167515EF978A00F80F6A /* TimerAndAlert.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		188D166C15EF978A00F80F6A /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 188D166F15EF978A00F80F6A /* Build configuration list for PBXProject "TimerAndAlert" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 188D166A15EF978A00F80F6A;
+			productRefGroup = 188D167615EF978A00F80F6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				188D167415EF978A00F80F6A /* TimerAndAlert */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		188D167315EF978A00F80F6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188D168415EF978A00F80F6A /* InfoPlist.strings in Resources */,
+				188D168D15EF978A00F80F6A /* MainWindow.xib in Resources */,
+				188D169315EF978A00F80F6A /* TimerAndAlertViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		188D167115EF978A00F80F6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188D168715EF978A00F80F6A /* main.m in Sources */,
+				188D168A15EF978A00F80F6A /* TimerAndAlertAppDelegate.m in Sources */,
+				188D169015EF978A00F80F6A /* TimerAndAlertViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		188D168215EF978A00F80F6A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				188D168315EF978A00F80F6A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		188D168B15EF978A00F80F6A /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				188D168C15EF978A00F80F6A /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		188D169115EF978A00F80F6A /* TimerAndAlertViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				188D169215EF978A00F80F6A /* en */,
+			);
+			name = TimerAndAlertViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		188D169415EF978A00F80F6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		188D169515EF978A00F80F6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		188D169715EF978A00F80F6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimerAndAlert/TimerAndAlert-Prefix.pch";
+				INFOPLIST_FILE = "TimerAndAlert/TimerAndAlert-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		188D169815EF978A00F80F6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimerAndAlert/TimerAndAlert-Prefix.pch";
+				INFOPLIST_FILE = "TimerAndAlert/TimerAndAlert-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		188D166F15EF978A00F80F6A /* Build configuration list for PBXProject "TimerAndAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188D169415EF978A00F80F6A /* Debug */,
+				188D169515EF978A00F80F6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		188D169615EF978A00F80F6A /* Build configuration list for PBXNativeTarget "TimerAndAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188D169715EF978A00F80F6A /* Debug */,
+				188D169815EF978A00F80F6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 188D166C15EF978A00F80F6A /* Project object */;
+}

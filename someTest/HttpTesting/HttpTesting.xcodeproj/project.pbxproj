@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180ADBE615E24491004861F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180ADBE515E24491004861F3 /* UIKit.framework */; };
+		180ADBE815E24491004861F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180ADBE715E24491004861F3 /* Foundation.framework */; };
+		180ADBEA15E24491004861F3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180ADBE915E24491004861F3 /* CoreGraphics.framework */; };
+		180ADBF015E24491004861F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 180ADBEE15E24491004861F3 /* InfoPlist.strings */; };
+		180ADBF315E24491004861F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 180ADBF215E24491004861F3 /* main.m */; };
+		180ADBF615E24491004861F3 /* HttpTestingAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 180ADBF515E24491004861F3 /* HttpTestingAppDelegate.m */; };
+		180ADBF915E24491004861F3 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 180ADBF715E24491004861F3 /* MainWindow.xib */; };
+		180ADBFC15E24491004861F3 /* HttpTestingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180ADBFB15E24491004861F3 /* HttpTestingViewController.m */; };
+		180ADBFF15E24491004861F3 /* HttpTestingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 180ADBFD15E24491004861F3 /* HttpTestingViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		180ADBE115E24491004861F3 /* HttpTesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HttpTesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		180ADBE515E24491004861F3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		180ADBE715E24491004861F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		180ADBE915E24491004861F3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		180ADBED15E24491004861F3 /* HttpTesting-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HttpTesting-Info.plist"; sourceTree = "<group>"; };
+		180ADBEF15E24491004861F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		180ADBF115E24491004861F3 /* HttpTesting-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HttpTesting-Prefix.pch"; sourceTree = "<group>"; };
+		180ADBF215E24491004861F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		180ADBF415E24491004861F3 /* HttpTestingAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HttpTestingAppDelegate.h; sourceTree = "<group>"; };
+		180ADBF515E24491004861F3 /* HttpTestingAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HttpTestingAppDelegate.m; sourceTree = "<group>"; };
+		180ADBF815E24491004861F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		180ADBFA15E24491004861F3 /* HttpTestingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HttpTestingViewController.h; sourceTree = "<group>"; };
+		180ADBFB15E24491004861F3 /* HttpTestingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HttpTestingViewController.m; sourceTree = "<group>"; };
+		180ADBFE15E24491004861F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HttpTestingViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		180ADBDE15E24491004861F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180ADBE615E24491004861F3 /* UIKit.framework in Frameworks */,
+				180ADBE815E24491004861F3 /* Foundation.framework in Frameworks */,
+				180ADBEA15E24491004861F3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		180ADBD615E24491004861F3 = {
+			isa = PBXGroup;
+			children = (
+				180ADBEB15E24491004861F3 /* HttpTesting */,
+				180ADBE415E24491004861F3 /* Frameworks */,
+				180ADBE215E24491004861F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		180ADBE215E24491004861F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				180ADBE115E24491004861F3 /* HttpTesting.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		180ADBE415E24491004861F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				180ADBE515E24491004861F3 /* UIKit.framework */,
+				180ADBE715E24491004861F3 /* Foundation.framework */,
+				180ADBE915E24491004861F3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		180ADBEB15E24491004861F3 /* HttpTesting */ = {
+			isa = PBXGroup;
+			children = (
+				180ADBF415E24491004861F3 /* HttpTestingAppDelegate.h */,
+				180ADBF515E24491004861F3 /* HttpTestingAppDelegate.m */,
+				180ADBF715E24491004861F3 /* MainWindow.xib */,
+				180ADBFA15E24491004861F3 /* HttpTestingViewController.h */,
+				180ADBFB15E24491004861F3 /* HttpTestingViewController.m */,
+				180ADBFD15E24491004861F3 /* HttpTestingViewController.xib */,
+				180ADBEC15E24491004861F3 /* Supporting Files */,
+			);
+			path = HttpTesting;
+			sourceTree = "<group>";
+		};
+		180ADBEC15E24491004861F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				180ADBED15E24491004861F3 /* HttpTesting-Info.plist */,
+				180ADBEE15E24491004861F3 /* InfoPlist.strings */,
+				180ADBF115E24491004861F3 /* HttpTesting-Prefix.pch */,
+				180ADBF215E24491004861F3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		180ADBE015E24491004861F3 /* HttpTesting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180ADC0215E24491004861F3 /* Build configuration list for PBXNativeTarget "HttpTesting" */;
+			buildPhases = (
+				180ADBDD15E24491004861F3 /* Sources */,
+				180ADBDE15E24491004861F3 /* Frameworks */,
+				180ADBDF15E24491004861F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HttpTesting;
+			productName = HttpTesting;
+			productReference = 180ADBE115E24491004861F3 /* HttpTesting.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		180ADBD815E24491004861F3 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 180ADBDB15E24491004861F3 /* Build configuration list for PBXProject "HttpTesting" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 180ADBD615E24491004861F3;
+			productRefGroup = 180ADBE215E24491004861F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				180ADBE015E24491004861F3 /* HttpTesting */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		180ADBDF15E24491004861F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180ADBF015E24491004861F3 /* InfoPlist.strings in Resources */,
+				180ADBF915E24491004861F3 /* MainWindow.xib in Resources */,
+				180ADBFF15E24491004861F3 /* HttpTestingViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		180ADBDD15E24491004861F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180ADBF315E24491004861F3 /* main.m in Sources */,
+				180ADBF615E24491004861F3 /* HttpTestingAppDelegate.m in Sources */,
+				180ADBFC15E24491004861F3 /* HttpTestingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		180ADBEE15E24491004861F3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180ADBEF15E24491004861F3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		180ADBF715E24491004861F3 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180ADBF815E24491004861F3 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		180ADBFD15E24491004861F3 /* HttpTestingViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180ADBFE15E24491004861F3 /* en */,
+			);
+			name = HttpTestingViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		180ADC0015E24491004861F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		180ADC0115E24491004861F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		180ADC0315E24491004861F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HttpTesting/HttpTesting-Prefix.pch";
+				INFOPLIST_FILE = "HttpTesting/HttpTesting-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		180ADC0415E24491004861F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HttpTesting/HttpTesting-Prefix.pch";
+				INFOPLIST_FILE = "HttpTesting/HttpTesting-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		180ADBDB15E24491004861F3 /* Build configuration list for PBXProject "HttpTesting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180ADC0015E24491004861F3 /* Debug */,
+				180ADC0115E24491004861F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180ADC0215E24491004861F3 /* Build configuration list for PBXNativeTarget "HttpTesting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180ADC0315E24491004861F3 /* Debug */,
+				180ADC0415E24491004861F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 180ADBD815E24491004861F3 /* Project object */;
+}

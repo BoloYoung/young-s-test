@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		188778DD15D682F60050CE1A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188778DC15D682F60050CE1A /* UIKit.framework */; };
+		188778DF15D682F60050CE1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188778DE15D682F60050CE1A /* Foundation.framework */; };
+		188778E115D682F60050CE1A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188778E015D682F60050CE1A /* CoreGraphics.framework */; };
+		188778E315D682F60050CE1A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188778E215D682F60050CE1A /* CoreData.framework */; };
+		188778E915D682F60050CE1A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 188778E715D682F60050CE1A /* InfoPlist.strings */; };
+		188778EC15D682F60050CE1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 188778EB15D682F60050CE1A /* main.m */; };
+		188778EF15D682F60050CE1A /* testonceAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 188778EE15D682F60050CE1A /* testonceAppDelegate.m */; };
+		188778F215D682F60050CE1A /* testonce.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 188778F015D682F60050CE1A /* testonce.xcdatamodeld */; };
+		188778F515D682F60050CE1A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188778F315D682F60050CE1A /* MainWindow.xib */; };
+		188778F815D682F60050CE1A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188778F715D682F60050CE1A /* MainViewController.m */; };
+		188778FA15D682F60050CE1A /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188778F915D682F60050CE1A /* MainView.xib */; };
+		188778FD15D682F60050CE1A /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188778FC15D682F60050CE1A /* FlipsideViewController.m */; };
+		188778FF15D682F60050CE1A /* FlipsideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188778FE15D682F60050CE1A /* FlipsideView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		188778D815D682F60050CE1A /* testonce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testonce.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		188778DC15D682F60050CE1A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		188778DE15D682F60050CE1A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		188778E015D682F60050CE1A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		188778E215D682F60050CE1A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		188778E615D682F60050CE1A /* testonce-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testonce-Info.plist"; sourceTree = "<group>"; };
+		188778E815D682F60050CE1A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		188778EA15D682F60050CE1A /* testonce-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "testonce-Prefix.pch"; sourceTree = "<group>"; };
+		188778EB15D682F60050CE1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		188778ED15D682F60050CE1A /* testonceAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testonceAppDelegate.h; sourceTree = "<group>"; };
+		188778EE15D682F60050CE1A /* testonceAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testonceAppDelegate.m; sourceTree = "<group>"; };
+		188778F115D682F60050CE1A /* testonce.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = testonce.xcdatamodel; sourceTree = "<group>"; };
+		188778F415D682F60050CE1A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		188778F615D682F60050CE1A /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		188778F715D682F60050CE1A /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		188778F915D682F60050CE1A /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		188778FB15D682F60050CE1A /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		188778FC15D682F60050CE1A /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		188778FE15D682F60050CE1A /* FlipsideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlipsideView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		188778D515D682F60050CE1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188778DD15D682F60050CE1A /* UIKit.framework in Frameworks */,
+				188778DF15D682F60050CE1A /* Foundation.framework in Frameworks */,
+				188778E115D682F60050CE1A /* CoreGraphics.framework in Frameworks */,
+				188778E315D682F60050CE1A /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		188778CD15D682F60050CE1A = {
+			isa = PBXGroup;
+			children = (
+				188778E415D682F60050CE1A /* testonce */,
+				188778DB15D682F60050CE1A /* Frameworks */,
+				188778D915D682F60050CE1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		188778D915D682F60050CE1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				188778D815D682F60050CE1A /* testonce.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		188778DB15D682F60050CE1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				188778DC15D682F60050CE1A /* UIKit.framework */,
+				188778DE15D682F60050CE1A /* Foundation.framework */,
+				188778E015D682F60050CE1A /* CoreGraphics.framework */,
+				188778E215D682F60050CE1A /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		188778E415D682F60050CE1A /* testonce */ = {
+			isa = PBXGroup;
+			children = (
+				188778ED15D682F60050CE1A /* testonceAppDelegate.h */,
+				188778EE15D682F60050CE1A /* testonceAppDelegate.m */,
+				188778F315D682F60050CE1A /* MainWindow.xib */,
+				188778F615D682F60050CE1A /* MainViewController.h */,
+				188778F715D682F60050CE1A /* MainViewController.m */,
+				188778F915D682F60050CE1A /* MainView.xib */,
+				188778FB15D682F60050CE1A /* FlipsideViewController.h */,
+				188778FC15D682F60050CE1A /* FlipsideViewController.m */,
+				188778FE15D682F60050CE1A /* FlipsideView.xib */,
+				188778F015D682F60050CE1A /* testonce.xcdatamodeld */,
+				188778E515D682F60050CE1A /* Supporting Files */,
+			);
+			path = testonce;
+			sourceTree = "<group>";
+		};
+		188778E515D682F60050CE1A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				188778E615D682F60050CE1A /* testonce-Info.plist */,
+				188778E715D682F60050CE1A /* InfoPlist.strings */,
+				188778EA15D682F60050CE1A /* testonce-Prefix.pch */,
+				188778EB15D682F60050CE1A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		188778D715D682F60050CE1A /* testonce */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1887790215D682F60050CE1A /* Build configuration list for PBXNativeTarget "testonce" */;
+			buildPhases = (
+				188778D415D682F60050CE1A /* Sources */,
+				188778D515D682F60050CE1A /* Frameworks */,
+				188778D615D682F60050CE1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testonce;
+			productName = testonce;
+			productReference = 188778D815D682F60050CE1A /* testonce.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		188778CF15D682F60050CE1A /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 188778D215D682F60050CE1A /* Build configuration list for PBXProject "testonce" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 188778CD15D682F60050CE1A;
+			productRefGroup = 188778D915D682F60050CE1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				188778D715D682F60050CE1A /* testonce */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		188778D615D682F60050CE1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188778E915D682F60050CE1A /* InfoPlist.strings in Resources */,
+				188778F515D682F60050CE1A /* MainWindow.xib in Resources */,
+				188778FA15D682F60050CE1A /* MainView.xib in Resources */,
+				188778FF15D682F60050CE1A /* FlipsideView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		188778D415D682F60050CE1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188778EC15D682F60050CE1A /* main.m in Sources */,
+				188778EF15D682F60050CE1A /* testonceAppDelegate.m in Sources */,
+				188778F215D682F60050CE1A /* testonce.xcdatamodeld in Sources */,
+				188778F815D682F60050CE1A /* MainViewController.m in Sources */,
+				188778FD15D682F60050CE1A /* FlipsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		188778E715D682F60050CE1A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				188778E815D682F60050CE1A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		188778F315D682F60050CE1A /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				188778F415D682F60050CE1A /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1887790015D682F60050CE1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1887790115D682F60050CE1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		1887790315D682F60050CE1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testonce/testonce-Prefix.pch";
+				INFOPLIST_FILE = "testonce/testonce-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1887790415D682F60050CE1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testonce/testonce-Prefix.pch";
+				INFOPLIST_FILE = "testonce/testonce-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		188778D215D682F60050CE1A /* Build configuration list for PBXProject "testonce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1887790015D682F60050CE1A /* Debug */,
+				1887790115D682F60050CE1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1887790215D682F60050CE1A /* Build configuration list for PBXNativeTarget "testonce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1887790315D682F60050CE1A /* Debug */,
+				1887790415D682F60050CE1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		188778F015D682F60050CE1A /* testonce.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				188778F115D682F60050CE1A /* testonce.xcdatamodel */,
+			);
+			currentVersion = 188778F115D682F60050CE1A /* testonce.xcdatamodel */;
+			path = testonce.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 188778CF15D682F60050CE1A /* Project object */;
+}

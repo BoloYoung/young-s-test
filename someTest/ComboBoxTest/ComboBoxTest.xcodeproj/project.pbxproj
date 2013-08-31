@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		188C33FD15E1E05800BFFFCE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188C33FC15E1E05800BFFFCE /* UIKit.framework */; };
+		188C33FF15E1E05800BFFFCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188C33FE15E1E05800BFFFCE /* Foundation.framework */; };
+		188C340115E1E05800BFFFCE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188C340015E1E05800BFFFCE /* CoreGraphics.framework */; };
+		188C340715E1E05800BFFFCE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 188C340515E1E05800BFFFCE /* InfoPlist.strings */; };
+		188C340A15E1E05900BFFFCE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 188C340915E1E05900BFFFCE /* main.m */; };
+		188C340D15E1E05900BFFFCE /* ComboBoxTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 188C340C15E1E05900BFFFCE /* ComboBoxTestAppDelegate.m */; };
+		188C341015E1E05900BFFFCE /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188C340E15E1E05900BFFFCE /* MainWindow.xib */; };
+		188C341315E1E05900BFFFCE /* ComboBoxTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188C341215E1E05900BFFFCE /* ComboBoxTestViewController.m */; };
+		188C341615E1E05900BFFFCE /* ComboBoxTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188C341415E1E05900BFFFCE /* ComboBoxTestViewController.xib */; };
+		188C343915E1E1F700BFFFCE /* chat.png in Resources */ = {isa = PBXBuildFile; fileRef = 188C342515E1E1F700BFFFCE /* chat.png */; };
+		188C343A15E1E1F700BFFFCE /* chat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 188C342615E1E1F700BFFFCE /* chat@2x.png */; };
+		188C343B15E1E1F700BFFFCE /* compose-at.png in Resources */ = {isa = PBXBuildFile; fileRef = 188C342715E1E1F700BFFFCE /* compose-at.png */; };
+		188C343C15E1E1F700BFFFCE /* compose-at@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 188C342815E1E1F700BFFFCE /* compose-at@2x.png */; };
+		188C343D15E1E1F700BFFFCE /* magnifying-glass.png in Resources */ = {isa = PBXBuildFile; fileRef = 188C342915E1E1F700BFFFCE /* magnifying-glass.png */; };
+		188C343E15E1E1F700BFFFCE /* magnifying-glass@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 188C342A15E1E1F700BFFFCE /* magnifying-glass@2x.png */; };
+		188C343F15E1E1F700BFFFCE /* messages.png in Resources */ = {isa = PBXBuildFile; fileRef = 188C342B15E1E1F700BFFFCE /* messages.png */; };
+		188C344015E1E1F700BFFFCE /* messages@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 188C342C15E1E1F700BFFFCE /* messages@2x.png */; };
+		188C344115E1E1F700BFFFCE /* more.png in Resources */ = {isa = PBXBuildFile; fileRef = 188C342D15E1E1F700BFFFCE /* more.png */; };
+		188C344215E1E1F700BFFFCE /* more@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 188C342E15E1E1F700BFFFCE /* more@2x.png */; };
+		188C344315E1E1F700BFFFCE /* TabBarGlow.png in Resources */ = {isa = PBXBuildFile; fileRef = 188C342F15E1E1F700BFFFCE /* TabBarGlow.png */; };
+		188C344415E1E1F700BFFFCE /* TabBarGlow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 188C343015E1E1F700BFFFCE /* TabBarGlow@2x.png */; };
+		188C344515E1E1F700BFFFCE /* TabBarGradient.png in Resources */ = {isa = PBXBuildFile; fileRef = 188C343115E1E1F700BFFFCE /* TabBarGradient.png */; };
+		188C344615E1E1F700BFFFCE /* TabBarGradient@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 188C343215E1E1F700BFFFCE /* TabBarGradient@2x.png */; };
+		188C344715E1E1F700BFFFCE /* TabBarItemSelectedBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 188C343315E1E1F700BFFFCE /* TabBarItemSelectedBackground.png */; };
+		188C344815E1E1F700BFFFCE /* TabBarItemSelectedBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 188C343415E1E1F700BFFFCE /* TabBarItemSelectedBackground@2x.png */; };
+		188C344915E1E1F700BFFFCE /* TabBarNipple.png in Resources */ = {isa = PBXBuildFile; fileRef = 188C343515E1E1F700BFFFCE /* TabBarNipple.png */; };
+		188C344A15E1E1F700BFFFCE /* TabBarNipple@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 188C343615E1E1F700BFFFCE /* TabBarNipple@2x.png */; };
+		188C344B15E1E1F700BFFFCE /* TabBarSelection.png in Resources */ = {isa = PBXBuildFile; fileRef = 188C343715E1E1F700BFFFCE /* TabBarSelection.png */; };
+		188C344C15E1E1F700BFFFCE /* TabBarSelection@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 188C343815E1E1F700BFFFCE /* TabBarSelection@2x.png */; };
+		188C345215E1E7DF00BFFFCE /* ComboBoxClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 188C345115E1E7DF00BFFFCE /* ComboBoxClass.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		188C33F815E1E05800BFFFCE /* ComboBoxTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComboBoxTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		188C33FC15E1E05800BFFFCE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		188C33FE15E1E05800BFFFCE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		188C340015E1E05800BFFFCE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		188C340415E1E05800BFFFCE /* ComboBoxTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ComboBoxTest-Info.plist"; sourceTree = "<group>"; };
+		188C340615E1E05800BFFFCE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		188C340815E1E05800BFFFCE /* ComboBoxTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ComboBoxTest-Prefix.pch"; sourceTree = "<group>"; };
+		188C340915E1E05900BFFFCE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		188C340B15E1E05900BFFFCE /* ComboBoxTestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComboBoxTestAppDelegate.h; sourceTree = "<group>"; };
+		188C340C15E1E05900BFFFCE /* ComboBoxTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComboBoxTestAppDelegate.m; sourceTree = "<group>"; };
+		188C340F15E1E05900BFFFCE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		188C341115E1E05900BFFFCE /* ComboBoxTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComboBoxTestViewController.h; sourceTree = "<group>"; };
+		188C341215E1E05900BFFFCE /* ComboBoxTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComboBoxTestViewController.m; sourceTree = "<group>"; };
+		188C341515E1E05900BFFFCE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ComboBoxTestViewController.xib; sourceTree = "<group>"; };
+		188C342515E1E1F700BFFFCE /* chat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat.png; sourceTree = "<group>"; };
+		188C342615E1E1F700BFFFCE /* chat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chat@2x.png"; sourceTree = "<group>"; };
+		188C342715E1E1F700BFFFCE /* compose-at.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compose-at.png"; sourceTree = "<group>"; };
+		188C342815E1E1F700BFFFCE /* compose-at@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compose-at@2x.png"; sourceTree = "<group>"; };
+		188C342915E1E1F700BFFFCE /* magnifying-glass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "magnifying-glass.png"; sourceTree = "<group>"; };
+		188C342A15E1E1F700BFFFCE /* magnifying-glass@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "magnifying-glass@2x.png"; sourceTree = "<group>"; };
+		188C342B15E1E1F700BFFFCE /* messages.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = messages.png; sourceTree = "<group>"; };
+		188C342C15E1E1F700BFFFCE /* messages@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "messages@2x.png"; sourceTree = "<group>"; };
+		188C342D15E1E1F700BFFFCE /* more.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = more.png; sourceTree = "<group>"; };
+		188C342E15E1E1F700BFFFCE /* more@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "more@2x.png"; sourceTree = "<group>"; };
+		188C342F15E1E1F700BFFFCE /* TabBarGlow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TabBarGlow.png; sourceTree = "<group>"; };
+		188C343015E1E1F700BFFFCE /* TabBarGlow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabBarGlow@2x.png"; sourceTree = "<group>"; };
+		188C343115E1E1F700BFFFCE /* TabBarGradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TabBarGradient.png; sourceTree = "<group>"; };
+		188C343215E1E1F700BFFFCE /* TabBarGradient@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabBarGradient@2x.png"; sourceTree = "<group>"; };
+		188C343315E1E1F700BFFFCE /* TabBarItemSelectedBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TabBarItemSelectedBackground.png; sourceTree = "<group>"; };
+		188C343415E1E1F700BFFFCE /* TabBarItemSelectedBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabBarItemSelectedBackground@2x.png"; sourceTree = "<group>"; };
+		188C343515E1E1F700BFFFCE /* TabBarNipple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TabBarNipple.png; sourceTree = "<group>"; };
+		188C343615E1E1F700BFFFCE /* TabBarNipple@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabBarNipple@2x.png"; sourceTree = "<group>"; };
+		188C343715E1E1F700BFFFCE /* TabBarSelection.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TabBarSelection.png; sourceTree = "<group>"; };
+		188C343815E1E1F700BFFFCE /* TabBarSelection@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabBarSelection@2x.png"; sourceTree = "<group>"; };
+		188C345015E1E7DF00BFFFCE /* ComboBoxClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComboBoxClass.h; sourceTree = "<group>"; };
+		188C345115E1E7DF00BFFFCE /* ComboBoxClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComboBoxClass.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		188C33F515E1E05800BFFFCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188C33FD15E1E05800BFFFCE /* UIKit.framework in Frameworks */,
+				188C33FF15E1E05800BFFFCE /* Foundation.framework in Frameworks */,
+				188C340115E1E05800BFFFCE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		188C33ED15E1E05800BFFFCE = {
+			isa = PBXGroup;
+			children = (
+				188C342415E1E1F700BFFFCE /* Images */,
+				188C340215E1E05800BFFFCE /* ComboBoxTest */,
+				188C33FB15E1E05800BFFFCE /* Frameworks */,
+				188C33F915E1E05800BFFFCE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		188C33F915E1E05800BFFFCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				188C33F815E1E05800BFFFCE /* ComboBoxTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		188C33FB15E1E05800BFFFCE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				188C33FC15E1E05800BFFFCE /* UIKit.framework */,
+				188C33FE15E1E05800BFFFCE /* Foundation.framework */,
+				188C340015E1E05800BFFFCE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		188C340215E1E05800BFFFCE /* ComboBoxTest */ = {
+			isa = PBXGroup;
+			children = (
+				188C340B15E1E05900BFFFCE /* ComboBoxTestAppDelegate.h */,
+				188C340C15E1E05900BFFFCE /* ComboBoxTestAppDelegate.m */,
+				188C340E15E1E05900BFFFCE /* MainWindow.xib */,
+				188C341115E1E05900BFFFCE /* ComboBoxTestViewController.h */,
+				188C341215E1E05900BFFFCE /* ComboBoxTestViewController.m */,
+				188C341415E1E05900BFFFCE /* ComboBoxTestViewController.xib */,
+				188C340315E1E05800BFFFCE /* Supporting Files */,
+				188C345015E1E7DF00BFFFCE /* ComboBoxClass.h */,
+				188C345115E1E7DF00BFFFCE /* ComboBoxClass.m */,
+			);
+			path = ComboBoxTest;
+			sourceTree = "<group>";
+		};
+		188C340315E1E05800BFFFCE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				188C340415E1E05800BFFFCE /* ComboBoxTest-Info.plist */,
+				188C340515E1E05800BFFFCE /* InfoPlist.strings */,
+				188C340815E1E05800BFFFCE /* ComboBoxTest-Prefix.pch */,
+				188C340915E1E05900BFFFCE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		188C342415E1E1F700BFFFCE /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				188C342515E1E1F700BFFFCE /* chat.png */,
+				188C342615E1E1F700BFFFCE /* chat@2x.png */,
+				188C342715E1E1F700BFFFCE /* compose-at.png */,
+				188C342815E1E1F700BFFFCE /* compose-at@2x.png */,
+				188C342915E1E1F700BFFFCE /* magnifying-glass.png */,
+				188C342A15E1E1F700BFFFCE /* magnifying-glass@2x.png */,
+				188C342B15E1E1F700BFFFCE /* messages.png */,
+				188C342C15E1E1F700BFFFCE /* messages@2x.png */,
+				188C342D15E1E1F700BFFFCE /* more.png */,
+				188C342E15E1E1F700BFFFCE /* more@2x.png */,
+				188C342F15E1E1F700BFFFCE /* TabBarGlow.png */,
+				188C343015E1E1F700BFFFCE /* TabBarGlow@2x.png */,
+				188C343115E1E1F700BFFFCE /* TabBarGradient.png */,
+				188C343215E1E1F700BFFFCE /* TabBarGradient@2x.png */,
+				188C343315E1E1F700BFFFCE /* TabBarItemSelectedBackground.png */,
+				188C343415E1E1F700BFFFCE /* TabBarItemSelectedBackground@2x.png */,
+				188C343515E1E1F700BFFFCE /* TabBarNipple.png */,
+				188C343615E1E1F700BFFFCE /* TabBarNipple@2x.png */,
+				188C343715E1E1F700BFFFCE /* TabBarSelection.png */,
+				188C343815E1E1F700BFFFCE /* TabBarSelection@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		188C33F715E1E05800BFFFCE /* ComboBoxTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 188C341915E1E05900BFFFCE /* Build configuration list for PBXNativeTarget "ComboBoxTest" */;
+			buildPhases = (
+				188C33F415E1E05800BFFFCE /* Sources */,
+				188C33F515E1E05800BFFFCE /* Frameworks */,
+				188C33F615E1E05800BFFFCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ComboBoxTest;
+			productName = ComboBoxTest;
+			productReference = 188C33F815E1E05800BFFFCE /* ComboBoxTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		188C33EF15E1E05800BFFFCE /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 188C33F215E1E05800BFFFCE /* Build configuration list for PBXProject "ComboBoxTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 188C33ED15E1E05800BFFFCE;
+			productRefGroup = 188C33F915E1E05800BFFFCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				188C33F715E1E05800BFFFCE /* ComboBoxTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		188C33F615E1E05800BFFFCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188C340715E1E05800BFFFCE /* InfoPlist.strings in Resources */,
+				188C341015E1E05900BFFFCE /* MainWindow.xib in Resources */,
+				188C341615E1E05900BFFFCE /* ComboBoxTestViewController.xib in Resources */,
+				188C343915E1E1F700BFFFCE /* chat.png in Resources */,
+				188C343A15E1E1F700BFFFCE /* chat@2x.png in Resources */,
+				188C343B15E1E1F700BFFFCE /* compose-at.png in Resources */,
+				188C343C15E1E1F700BFFFCE /* compose-at@2x.png in Resources */,
+				188C343D15E1E1F700BFFFCE /* magnifying-glass.png in Resources */,
+				188C343E15E1E1F700BFFFCE /* magnifying-glass@2x.png in Resources */,
+				188C343F15E1E1F700BFFFCE /* messages.png in Resources */,
+				188C344015E1E1F700BFFFCE /* messages@2x.png in Resources */,
+				188C344115E1E1F700BFFFCE /* more.png in Resources */,
+				188C344215E1E1F700BFFFCE /* more@2x.png in Resources */,
+				188C344315E1E1F700BFFFCE /* TabBarGlow.png in Resources */,
+				188C344415E1E1F700BFFFCE /* TabBarGlow@2x.png in Resources */,
+				188C344515E1E1F700BFFFCE /* TabBarGradient.png in Resources */,
+				188C344615E1E1F700BFFFCE /* TabBarGradient@2x.png in Resources */,
+				188C344715E1E1F700BFFFCE /* TabBarItemSelectedBackground.png in Resources */,
+				188C344815E1E1F700BFFFCE /* TabBarItemSelectedBackground@2x.png in Resources */,
+				188C344915E1E1F700BFFFCE /* TabBarNipple.png in Resources */,
+				188C344A15E1E1F700BFFFCE /* TabBarNipple@2x.png in Resources */,
+				188C344B15E1E1F700BFFFCE /* TabBarSelection.png in Resources */,
+				188C344C15E1E1F700BFFFCE /* TabBarSelection@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		188C33F415E1E05800BFFFCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188C340A15E1E05900BFFFCE /* main.m in Sources */,
+				188C340D15E1E05900BFFFCE /* ComboBoxTestAppDelegate.m in Sources */,
+				188C341315E1E05900BFFFCE /* ComboBoxTestViewController.m in Sources */,
+				188C345215E1E7DF00BFFFCE /* ComboBoxClass.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		188C340515E1E05800BFFFCE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				188C340615E1E05800BFFFCE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		188C340E15E1E05900BFFFCE /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				188C340F15E1E05900BFFFCE /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		188C341415E1E05900BFFFCE /* ComboBoxTestViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				188C341515E1E05900BFFFCE /* en */,
+			);
+			name = ComboBoxTestViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		188C341715E1E05900BFFFCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		188C341815E1E05900BFFFCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		188C341A15E1E05900BFFFCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ComboBoxTest/ComboBoxTest-Prefix.pch";
+				INFOPLIST_FILE = "ComboBoxTest/ComboBoxTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		188C341B15E1E05900BFFFCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ComboBoxTest/ComboBoxTest-Prefix.pch";
+				INFOPLIST_FILE = "ComboBoxTest/ComboBoxTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		188C33F215E1E05800BFFFCE /* Build configuration list for PBXProject "ComboBoxTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188C341715E1E05900BFFFCE /* Debug */,
+				188C341815E1E05900BFFFCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		188C341915E1E05900BFFFCE /* Build configuration list for PBXNativeTarget "ComboBoxTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188C341A15E1E05900BFFFCE /* Debug */,
+				188C341B15E1E05900BFFFCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 188C33EF15E1E05800BFFFCE /* Project object */;
+}

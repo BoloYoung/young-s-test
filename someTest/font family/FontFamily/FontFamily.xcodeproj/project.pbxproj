@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1893544416EB51B600BCCE07 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1893544316EB51B600BCCE07 /* UIKit.framework */; };
+		1893544616EB51B600BCCE07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1893544516EB51B600BCCE07 /* Foundation.framework */; };
+		1893544816EB51B600BCCE07 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1893544716EB51B600BCCE07 /* CoreGraphics.framework */; };
+		1893544E16EB51B600BCCE07 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1893544C16EB51B600BCCE07 /* InfoPlist.strings */; };
+		1893545116EB51B600BCCE07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1893545016EB51B600BCCE07 /* main.m */; };
+		1893545416EB51B600BCCE07 /* FontFamilyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1893545316EB51B600BCCE07 /* FontFamilyAppDelegate.m */; };
+		1893545716EB51B600BCCE07 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1893545516EB51B600BCCE07 /* MainWindow.xib */; };
+		1893545A16EB51B600BCCE07 /* FontFamilyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1893545916EB51B600BCCE07 /* FontFamilyViewController.m */; };
+		1893545D16EB51B600BCCE07 /* FontFamilyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1893545B16EB51B600BCCE07 /* FontFamilyViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1893543F16EB51B600BCCE07 /* FontFamily.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FontFamily.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1893544316EB51B600BCCE07 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1893544516EB51B600BCCE07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1893544716EB51B600BCCE07 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1893544B16EB51B600BCCE07 /* FontFamily-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FontFamily-Info.plist"; sourceTree = "<group>"; };
+		1893544D16EB51B600BCCE07 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1893544F16EB51B600BCCE07 /* FontFamily-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FontFamily-Prefix.pch"; sourceTree = "<group>"; };
+		1893545016EB51B600BCCE07 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1893545216EB51B600BCCE07 /* FontFamilyAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FontFamilyAppDelegate.h; sourceTree = "<group>"; };
+		1893545316EB51B600BCCE07 /* FontFamilyAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FontFamilyAppDelegate.m; sourceTree = "<group>"; };
+		1893545616EB51B600BCCE07 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		1893545816EB51B600BCCE07 /* FontFamilyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FontFamilyViewController.h; sourceTree = "<group>"; };
+		1893545916EB51B600BCCE07 /* FontFamilyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FontFamilyViewController.m; sourceTree = "<group>"; };
+		1893545C16EB51B600BCCE07 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FontFamilyViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1893543C16EB51B600BCCE07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1893544416EB51B600BCCE07 /* UIKit.framework in Frameworks */,
+				1893544616EB51B600BCCE07 /* Foundation.framework in Frameworks */,
+				1893544816EB51B600BCCE07 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1893543416EB51B600BCCE07 = {
+			isa = PBXGroup;
+			children = (
+				1893544916EB51B600BCCE07 /* FontFamily */,
+				1893544216EB51B600BCCE07 /* Frameworks */,
+				1893544016EB51B600BCCE07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1893544016EB51B600BCCE07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1893543F16EB51B600BCCE07 /* FontFamily.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1893544216EB51B600BCCE07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1893544316EB51B600BCCE07 /* UIKit.framework */,
+				1893544516EB51B600BCCE07 /* Foundation.framework */,
+				1893544716EB51B600BCCE07 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1893544916EB51B600BCCE07 /* FontFamily */ = {
+			isa = PBXGroup;
+			children = (
+				1893545216EB51B600BCCE07 /* FontFamilyAppDelegate.h */,
+				1893545316EB51B600BCCE07 /* FontFamilyAppDelegate.m */,
+				1893545516EB51B600BCCE07 /* MainWindow.xib */,
+				1893545816EB51B600BCCE07 /* FontFamilyViewController.h */,
+				1893545916EB51B600BCCE07 /* FontFamilyViewController.m */,
+				1893545B16EB51B600BCCE07 /* FontFamilyViewController.xib */,
+				1893544A16EB51B600BCCE07 /* Supporting Files */,
+			);
+			path = FontFamily;
+			sourceTree = "<group>";
+		};
+		1893544A16EB51B600BCCE07 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1893544B16EB51B600BCCE07 /* FontFamily-Info.plist */,
+				1893544C16EB51B600BCCE07 /* InfoPlist.strings */,
+				1893544F16EB51B600BCCE07 /* FontFamily-Prefix.pch */,
+				1893545016EB51B600BCCE07 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1893543E16EB51B600BCCE07 /* FontFamily */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1893546016EB51B600BCCE07 /* Build configuration list for PBXNativeTarget "FontFamily" */;
+			buildPhases = (
+				1893543B16EB51B600BCCE07 /* Sources */,
+				1893543C16EB51B600BCCE07 /* Frameworks */,
+				1893543D16EB51B600BCCE07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FontFamily;
+			productName = FontFamily;
+			productReference = 1893543F16EB51B600BCCE07 /* FontFamily.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1893543616EB51B600BCCE07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1893543916EB51B600BCCE07 /* Build configuration list for PBXProject "FontFamily" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1893543416EB51B600BCCE07;
+			productRefGroup = 1893544016EB51B600BCCE07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1893543E16EB51B600BCCE07 /* FontFamily */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1893543D16EB51B600BCCE07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1893544E16EB51B600BCCE07 /* InfoPlist.strings in Resources */,
+				1893545716EB51B600BCCE07 /* MainWindow.xib in Resources */,
+				1893545D16EB51B600BCCE07 /* FontFamilyViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1893543B16EB51B600BCCE07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1893545116EB51B600BCCE07 /* main.m in Sources */,
+				1893545416EB51B600BCCE07 /* FontFamilyAppDelegate.m in Sources */,
+				1893545A16EB51B600BCCE07 /* FontFamilyViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1893544C16EB51B600BCCE07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1893544D16EB51B600BCCE07 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1893545516EB51B600BCCE07 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1893545616EB51B600BCCE07 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		1893545B16EB51B600BCCE07 /* FontFamilyViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1893545C16EB51B600BCCE07 /* en */,
+			);
+			name = FontFamilyViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1893545E16EB51B600BCCE07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1893545F16EB51B600BCCE07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		1893546116EB51B600BCCE07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FontFamily/FontFamily-Prefix.pch";
+				INFOPLIST_FILE = "FontFamily/FontFamily-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1893546216EB51B600BCCE07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FontFamily/FontFamily-Prefix.pch";
+				INFOPLIST_FILE = "FontFamily/FontFamily-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1893543916EB51B600BCCE07 /* Build configuration list for PBXProject "FontFamily" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1893545E16EB51B600BCCE07 /* Debug */,
+				1893545F16EB51B600BCCE07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1893546016EB51B600BCCE07 /* Build configuration list for PBXNativeTarget "FontFamily" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1893546116EB51B600BCCE07 /* Debug */,
+				1893546216EB51B600BCCE07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1893543616EB51B600BCCE07 /* Project object */;
+}

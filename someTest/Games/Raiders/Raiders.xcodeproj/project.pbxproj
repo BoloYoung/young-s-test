@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1857677B16AE8F9800D193F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1857677A16AE8F9800D193F3 /* UIKit.framework */; };
+		1857677D16AE8F9800D193F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1857677C16AE8F9800D193F3 /* Foundation.framework */; };
+		1857677F16AE8F9800D193F3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1857677E16AE8F9800D193F3 /* CoreGraphics.framework */; };
+		1857678116AE8F9800D193F3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1857678016AE8F9800D193F3 /* QuartzCore.framework */; };
+		1857678316AE8F9800D193F3 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1857678216AE8F9800D193F3 /* OpenGLES.framework */; };
+		1857678916AE8F9800D193F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1857678716AE8F9800D193F3 /* InfoPlist.strings */; };
+		1857678C16AE8F9800D193F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1857678B16AE8F9800D193F3 /* main.m */; };
+		1857678F16AE8F9800D193F3 /* RaidersAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1857678E16AE8F9800D193F3 /* RaidersAppDelegate.m */; };
+		1857679216AE8F9800D193F3 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1857679016AE8F9800D193F3 /* MainWindow.xib */; };
+		1857679416AE8F9800D193F3 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 1857679316AE8F9800D193F3 /* Shader.fsh */; };
+		1857679616AE8F9800D193F3 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 1857679516AE8F9800D193F3 /* Shader.vsh */; };
+		1857679916AE8F9800D193F3 /* EAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1857679816AE8F9800D193F3 /* EAGLView.m */; };
+		1857679C16AE8F9800D193F3 /* RaidersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1857679B16AE8F9800D193F3 /* RaidersViewController.m */; };
+		1857679F16AE8F9800D193F3 /* RaidersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1857679D16AE8F9800D193F3 /* RaidersViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1857677616AE8F9800D193F3 /* Raiders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Raiders.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1857677A16AE8F9800D193F3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1857677C16AE8F9800D193F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1857677E16AE8F9800D193F3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1857678016AE8F9800D193F3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1857678216AE8F9800D193F3 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		1857678616AE8F9800D193F3 /* Raiders-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Raiders-Info.plist"; sourceTree = "<group>"; };
+		1857678816AE8F9800D193F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1857678A16AE8F9800D193F3 /* Raiders-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Raiders-Prefix.pch"; sourceTree = "<group>"; };
+		1857678B16AE8F9800D193F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1857678D16AE8F9800D193F3 /* RaidersAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RaidersAppDelegate.h; sourceTree = "<group>"; };
+		1857678E16AE8F9800D193F3 /* RaidersAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RaidersAppDelegate.m; sourceTree = "<group>"; };
+		1857679116AE8F9800D193F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		1857679316AE8F9800D193F3 /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
+		1857679516AE8F9800D193F3 /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
+		1857679716AE8F9800D193F3 /* EAGLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EAGLView.h; sourceTree = "<group>"; };
+		1857679816AE8F9800D193F3 /* EAGLView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EAGLView.m; sourceTree = "<group>"; };
+		1857679A16AE8F9800D193F3 /* RaidersViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RaidersViewController.h; sourceTree = "<group>"; };
+		1857679B16AE8F9800D193F3 /* RaidersViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RaidersViewController.m; sourceTree = "<group>"; };
+		1857679E16AE8F9800D193F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RaidersViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1857677316AE8F9800D193F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1857677B16AE8F9800D193F3 /* UIKit.framework in Frameworks */,
+				1857677D16AE8F9800D193F3 /* Foundation.framework in Frameworks */,
+				1857677F16AE8F9800D193F3 /* CoreGraphics.framework in Frameworks */,
+				1857678116AE8F9800D193F3 /* QuartzCore.framework in Frameworks */,
+				1857678316AE8F9800D193F3 /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1857676B16AE8F9800D193F3 = {
+			isa = PBXGroup;
+			children = (
+				1857678416AE8F9800D193F3 /* Raiders */,
+				1857677916AE8F9800D193F3 /* Frameworks */,
+				1857677716AE8F9800D193F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1857677716AE8F9800D193F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1857677616AE8F9800D193F3 /* Raiders.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1857677916AE8F9800D193F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1857677A16AE8F9800D193F3 /* UIKit.framework */,
+				1857677C16AE8F9800D193F3 /* Foundation.framework */,
+				1857677E16AE8F9800D193F3 /* CoreGraphics.framework */,
+				1857678016AE8F9800D193F3 /* QuartzCore.framework */,
+				1857678216AE8F9800D193F3 /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1857678416AE8F9800D193F3 /* Raiders */ = {
+			isa = PBXGroup;
+			children = (
+				1857678D16AE8F9800D193F3 /* RaidersAppDelegate.h */,
+				1857678E16AE8F9800D193F3 /* RaidersAppDelegate.m */,
+				1857679016AE8F9800D193F3 /* MainWindow.xib */,
+				1857679316AE8F9800D193F3 /* Shader.fsh */,
+				1857679516AE8F9800D193F3 /* Shader.vsh */,
+				1857679716AE8F9800D193F3 /* EAGLView.h */,
+				1857679816AE8F9800D193F3 /* EAGLView.m */,
+				1857679A16AE8F9800D193F3 /* RaidersViewController.h */,
+				1857679B16AE8F9800D193F3 /* RaidersViewController.m */,
+				1857679D16AE8F9800D193F3 /* RaidersViewController.xib */,
+				1857678516AE8F9800D193F3 /* Supporting Files */,
+			);
+			path = Raiders;
+			sourceTree = "<group>";
+		};
+		1857678516AE8F9800D193F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1857678616AE8F9800D193F3 /* Raiders-Info.plist */,
+				1857678716AE8F9800D193F3 /* InfoPlist.strings */,
+				1857678A16AE8F9800D193F3 /* Raiders-Prefix.pch */,
+				1857678B16AE8F9800D193F3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1857677516AE8F9800D193F3 /* Raiders */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 185767A216AE8F9800D193F3 /* Build configuration list for PBXNativeTarget "Raiders" */;
+			buildPhases = (
+				1857677216AE8F9800D193F3 /* Sources */,
+				1857677316AE8F9800D193F3 /* Frameworks */,
+				1857677416AE8F9800D193F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Raiders;
+			productName = Raiders;
+			productReference = 1857677616AE8F9800D193F3 /* Raiders.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1857676D16AE8F9800D193F3 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1857677016AE8F9800D193F3 /* Build configuration list for PBXProject "Raiders" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1857676B16AE8F9800D193F3;
+			productRefGroup = 1857677716AE8F9800D193F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1857677516AE8F9800D193F3 /* Raiders */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1857677416AE8F9800D193F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1857678916AE8F9800D193F3 /* InfoPlist.strings in Resources */,
+				1857679216AE8F9800D193F3 /* MainWindow.xib in Resources */,
+				1857679416AE8F9800D193F3 /* Shader.fsh in Resources */,
+				1857679616AE8F9800D193F3 /* Shader.vsh in Resources */,
+				1857679F16AE8F9800D193F3 /* RaidersViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1857677216AE8F9800D193F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1857678C16AE8F9800D193F3 /* main.m in Sources */,
+				1857678F16AE8F9800D193F3 /* RaidersAppDelegate.m in Sources */,
+				1857679916AE8F9800D193F3 /* EAGLView.m in Sources */,
+				1857679C16AE8F9800D193F3 /* RaidersViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1857678716AE8F9800D193F3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1857678816AE8F9800D193F3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1857679016AE8F9800D193F3 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1857679116AE8F9800D193F3 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		1857679D16AE8F9800D193F3 /* RaidersViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1857679E16AE8F9800D193F3 /* en */,
+			);
+			name = RaidersViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		185767A016AE8F9800D193F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		185767A116AE8F9800D193F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		185767A316AE8F9800D193F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Raiders/Raiders-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "Raiders/Raiders-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		185767A416AE8F9800D193F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Raiders/Raiders-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "Raiders/Raiders-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1857677016AE8F9800D193F3 /* Build configuration list for PBXProject "Raiders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185767A016AE8F9800D193F3 /* Debug */,
+				185767A116AE8F9800D193F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		185767A216AE8F9800D193F3 /* Build configuration list for PBXNativeTarget "Raiders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185767A316AE8F9800D193F3 /* Debug */,
+				185767A416AE8F9800D193F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1857676D16AE8F9800D193F3 /* Project object */;
+}

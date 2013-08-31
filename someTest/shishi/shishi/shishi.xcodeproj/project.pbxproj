@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18854D611616C8DE00D6471D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18854D601616C8DE00D6471D /* UIKit.framework */; };
+		18854D631616C8DE00D6471D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18854D621616C8DE00D6471D /* Foundation.framework */; };
+		18854D651616C8DE00D6471D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18854D641616C8DE00D6471D /* CoreGraphics.framework */; };
+		18854D6B1616C8DE00D6471D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18854D691616C8DE00D6471D /* InfoPlist.strings */; };
+		18854D6E1616C8DE00D6471D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18854D6D1616C8DE00D6471D /* main.m */; };
+		18854D711616C8DE00D6471D /* shishiAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18854D701616C8DE00D6471D /* shishiAppDelegate.m */; };
+		18854D741616C8DE00D6471D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18854D721616C8DE00D6471D /* MainWindow.xib */; };
+		18854D771616C8DE00D6471D /* shishiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18854D761616C8DE00D6471D /* shishiViewController.m */; };
+		18854D7A1616C8DE00D6471D /* shishiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18854D781616C8DE00D6471D /* shishiViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18854D5C1616C8DE00D6471D /* shishi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shishi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18854D601616C8DE00D6471D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18854D621616C8DE00D6471D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18854D641616C8DE00D6471D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18854D681616C8DE00D6471D /* shishi-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "shishi-Info.plist"; sourceTree = "<group>"; };
+		18854D6A1616C8DE00D6471D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18854D6C1616C8DE00D6471D /* shishi-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "shishi-Prefix.pch"; sourceTree = "<group>"; };
+		18854D6D1616C8DE00D6471D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18854D6F1616C8DE00D6471D /* shishiAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = shishiAppDelegate.h; sourceTree = "<group>"; };
+		18854D701616C8DE00D6471D /* shishiAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = shishiAppDelegate.m; sourceTree = "<group>"; };
+		18854D731616C8DE00D6471D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		18854D751616C8DE00D6471D /* shishiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = shishiViewController.h; sourceTree = "<group>"; };
+		18854D761616C8DE00D6471D /* shishiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = shishiViewController.m; sourceTree = "<group>"; };
+		18854D791616C8DE00D6471D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/shishiViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18854D591616C8DE00D6471D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18854D611616C8DE00D6471D /* UIKit.framework in Frameworks */,
+				18854D631616C8DE00D6471D /* Foundation.framework in Frameworks */,
+				18854D651616C8DE00D6471D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18854D511616C8DD00D6471D = {
+			isa = PBXGroup;
+			children = (
+				18854D661616C8DE00D6471D /* shishi */,
+				18854D5F1616C8DE00D6471D /* Frameworks */,
+				18854D5D1616C8DE00D6471D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18854D5D1616C8DE00D6471D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18854D5C1616C8DE00D6471D /* shishi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18854D5F1616C8DE00D6471D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18854D601616C8DE00D6471D /* UIKit.framework */,
+				18854D621616C8DE00D6471D /* Foundation.framework */,
+				18854D641616C8DE00D6471D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18854D661616C8DE00D6471D /* shishi */ = {
+			isa = PBXGroup;
+			children = (
+				18854D6F1616C8DE00D6471D /* shishiAppDelegate.h */,
+				18854D701616C8DE00D6471D /* shishiAppDelegate.m */,
+				18854D721616C8DE00D6471D /* MainWindow.xib */,
+				18854D751616C8DE00D6471D /* shishiViewController.h */,
+				18854D761616C8DE00D6471D /* shishiViewController.m */,
+				18854D781616C8DE00D6471D /* shishiViewController.xib */,
+				18854D671616C8DE00D6471D /* Supporting Files */,
+			);
+			path = shishi;
+			sourceTree = "<group>";
+		};
+		18854D671616C8DE00D6471D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18854D681616C8DE00D6471D /* shishi-Info.plist */,
+				18854D691616C8DE00D6471D /* InfoPlist.strings */,
+				18854D6C1616C8DE00D6471D /* shishi-Prefix.pch */,
+				18854D6D1616C8DE00D6471D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18854D5B1616C8DE00D6471D /* shishi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18854D7D1616C8DE00D6471D /* Build configuration list for PBXNativeTarget "shishi" */;
+			buildPhases = (
+				18854D581616C8DE00D6471D /* Sources */,
+				18854D591616C8DE00D6471D /* Frameworks */,
+				18854D5A1616C8DE00D6471D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = shishi;
+			productName = shishi;
+			productReference = 18854D5C1616C8DE00D6471D /* shishi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18854D531616C8DD00D6471D /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 18854D561616C8DD00D6471D /* Build configuration list for PBXProject "shishi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18854D511616C8DD00D6471D;
+			productRefGroup = 18854D5D1616C8DE00D6471D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18854D5B1616C8DE00D6471D /* shishi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18854D5A1616C8DE00D6471D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18854D6B1616C8DE00D6471D /* InfoPlist.strings in Resources */,
+				18854D741616C8DE00D6471D /* MainWindow.xib in Resources */,
+				18854D7A1616C8DE00D6471D /* shishiViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18854D581616C8DE00D6471D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18854D6E1616C8DE00D6471D /* main.m in Sources */,
+				18854D711616C8DE00D6471D /* shishiAppDelegate.m in Sources */,
+				18854D771616C8DE00D6471D /* shishiViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18854D691616C8DE00D6471D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18854D6A1616C8DE00D6471D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		18854D721616C8DE00D6471D /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18854D731616C8DE00D6471D /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		18854D781616C8DE00D6471D /* shishiViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18854D791616C8DE00D6471D /* en */,
+			);
+			name = shishiViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18854D7B1616C8DE00D6471D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18854D7C1616C8DE00D6471D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		18854D7E1616C8DE00D6471D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "shishi/shishi-Prefix.pch";
+				INFOPLIST_FILE = "shishi/shishi-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		18854D7F1616C8DE00D6471D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "shishi/shishi-Prefix.pch";
+				INFOPLIST_FILE = "shishi/shishi-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18854D561616C8DD00D6471D /* Build configuration list for PBXProject "shishi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18854D7B1616C8DE00D6471D /* Debug */,
+				18854D7C1616C8DE00D6471D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18854D7D1616C8DE00D6471D /* Build configuration list for PBXNativeTarget "shishi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18854D7E1616C8DE00D6471D /* Debug */,
+				18854D7F1616C8DE00D6471D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18854D531616C8DD00D6471D /* Project object */;
+}

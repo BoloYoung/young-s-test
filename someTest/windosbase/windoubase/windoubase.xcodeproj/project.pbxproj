@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1853D07315D699DE0086FB4E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1853D07215D699DE0086FB4E /* UIKit.framework */; };
+		1853D07515D699DE0086FB4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1853D07415D699DE0086FB4E /* Foundation.framework */; };
+		1853D07715D699DE0086FB4E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1853D07615D699DE0086FB4E /* CoreGraphics.framework */; };
+		1853D07D15D699DE0086FB4E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1853D07B15D699DE0086FB4E /* InfoPlist.strings */; };
+		1853D08015D699DE0086FB4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1853D07F15D699DE0086FB4E /* main.m */; };
+		1853D08315D699DE0086FB4E /* windoubaseAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1853D08215D699DE0086FB4E /* windoubaseAppDelegate.m */; };
+		1853D08615D699DE0086FB4E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1853D08415D699DE0086FB4E /* MainWindow.xib */; };
+		1853D08F15D69DE50086FB4E /* testViewControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 1853D08D15D69DE50086FB4E /* testViewControl.m */; };
+		1853D09015D69DE50086FB4E /* testViewControl.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1853D08E15D69DE50086FB4E /* testViewControl.xib */; };
+		18A8BA7215D79A38003F7C62 /* AboutViewControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A8BA7015D79A38003F7C62 /* AboutViewControl.m */; };
+		18A8BA7315D79A38003F7C62 /* AboutViewControl.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18A8BA7115D79A38003F7C62 /* AboutViewControl.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1853D06E15D699DE0086FB4E /* windoubase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = windoubase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1853D07215D699DE0086FB4E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1853D07415D699DE0086FB4E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1853D07615D699DE0086FB4E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1853D07A15D699DE0086FB4E /* windoubase-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "windoubase-Info.plist"; sourceTree = "<group>"; };
+		1853D07C15D699DE0086FB4E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1853D07E15D699DE0086FB4E /* windoubase-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "windoubase-Prefix.pch"; sourceTree = "<group>"; };
+		1853D07F15D699DE0086FB4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1853D08115D699DE0086FB4E /* windoubaseAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = windoubaseAppDelegate.h; sourceTree = "<group>"; };
+		1853D08215D699DE0086FB4E /* windoubaseAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = windoubaseAppDelegate.m; sourceTree = "<group>"; };
+		1853D08515D699DE0086FB4E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		1853D08C15D69DE50086FB4E /* testViewControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testViewControl.h; sourceTree = "<group>"; };
+		1853D08D15D69DE50086FB4E /* testViewControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testViewControl.m; sourceTree = "<group>"; };
+		1853D08E15D69DE50086FB4E /* testViewControl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = testViewControl.xib; sourceTree = "<group>"; };
+		18A8BA6F15D79A38003F7C62 /* AboutViewControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewControl.h; sourceTree = "<group>"; };
+		18A8BA7015D79A38003F7C62 /* AboutViewControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewControl.m; sourceTree = "<group>"; };
+		18A8BA7115D79A38003F7C62 /* AboutViewControl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutViewControl.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1853D06B15D699DE0086FB4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1853D07315D699DE0086FB4E /* UIKit.framework in Frameworks */,
+				1853D07515D699DE0086FB4E /* Foundation.framework in Frameworks */,
+				1853D07715D699DE0086FB4E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1853D06315D699DE0086FB4E = {
+			isa = PBXGroup;
+			children = (
+				1853D07815D699DE0086FB4E /* windoubase */,
+				1853D07115D699DE0086FB4E /* Frameworks */,
+				1853D06F15D699DE0086FB4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1853D06F15D699DE0086FB4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1853D06E15D699DE0086FB4E /* windoubase.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1853D07115D699DE0086FB4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1853D07215D699DE0086FB4E /* UIKit.framework */,
+				1853D07415D699DE0086FB4E /* Foundation.framework */,
+				1853D07615D699DE0086FB4E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1853D07815D699DE0086FB4E /* windoubase */ = {
+			isa = PBXGroup;
+			children = (
+				1853D08115D699DE0086FB4E /* windoubaseAppDelegate.h */,
+				1853D08215D699DE0086FB4E /* windoubaseAppDelegate.m */,
+				1853D08415D699DE0086FB4E /* MainWindow.xib */,
+				1853D08C15D69DE50086FB4E /* testViewControl.h */,
+				1853D08D15D69DE50086FB4E /* testViewControl.m */,
+				1853D08E15D69DE50086FB4E /* testViewControl.xib */,
+				18A8BA6F15D79A38003F7C62 /* AboutViewControl.h */,
+				18A8BA7015D79A38003F7C62 /* AboutViewControl.m */,
+				18A8BA7115D79A38003F7C62 /* AboutViewControl.xib */,
+				1853D07915D699DE0086FB4E /* Supporting Files */,
+			);
+			path = windoubase;
+			sourceTree = "<group>";
+		};
+		1853D07915D699DE0086FB4E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1853D07A15D699DE0086FB4E /* windoubase-Info.plist */,
+				1853D07B15D699DE0086FB4E /* InfoPlist.strings */,
+				1853D07E15D699DE0086FB4E /* windoubase-Prefix.pch */,
+				1853D07F15D699DE0086FB4E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1853D06D15D699DE0086FB4E /* windoubase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1853D08915D699DE0086FB4E /* Build configuration list for PBXNativeTarget "windoubase" */;
+			buildPhases = (
+				1853D06A15D699DE0086FB4E /* Sources */,
+				1853D06B15D699DE0086FB4E /* Frameworks */,
+				1853D06C15D699DE0086FB4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = windoubase;
+			productName = windoubase;
+			productReference = 1853D06E15D699DE0086FB4E /* windoubase.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1853D06515D699DE0086FB4E /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1853D06815D699DE0086FB4E /* Build configuration list for PBXProject "windoubase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1853D06315D699DE0086FB4E;
+			productRefGroup = 1853D06F15D699DE0086FB4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1853D06D15D699DE0086FB4E /* windoubase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1853D06C15D699DE0086FB4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1853D07D15D699DE0086FB4E /* InfoPlist.strings in Resources */,
+				1853D08615D699DE0086FB4E /* MainWindow.xib in Resources */,
+				1853D09015D69DE50086FB4E /* testViewControl.xib in Resources */,
+				18A8BA7315D79A38003F7C62 /* AboutViewControl.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1853D06A15D699DE0086FB4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1853D08015D699DE0086FB4E /* main.m in Sources */,
+				1853D08315D699DE0086FB4E /* windoubaseAppDelegate.m in Sources */,
+				1853D08F15D69DE50086FB4E /* testViewControl.m in Sources */,
+				18A8BA7215D79A38003F7C62 /* AboutViewControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1853D07B15D699DE0086FB4E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1853D07C15D699DE0086FB4E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1853D08415D699DE0086FB4E /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1853D08515D699DE0086FB4E /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1853D08715D699DE0086FB4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1853D08815D699DE0086FB4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		1853D08A15D699DE0086FB4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "windoubase/windoubase-Prefix.pch";
+				INFOPLIST_FILE = "windoubase/windoubase-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1853D08B15D699DE0086FB4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "windoubase/windoubase-Prefix.pch";
+				INFOPLIST_FILE = "windoubase/windoubase-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1853D06815D699DE0086FB4E /* Build configuration list for PBXProject "windoubase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1853D08715D699DE0086FB4E /* Debug */,
+				1853D08815D699DE0086FB4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1853D08915D699DE0086FB4E /* Build configuration list for PBXNativeTarget "windoubase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1853D08A15D699DE0086FB4E /* Debug */,
+				1853D08B15D699DE0086FB4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1853D06515D699DE0086FB4E /* Project object */;
+}
